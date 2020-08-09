@@ -1,0 +1,19 @@
+{
+  "defaults": {
+    "origin": "http://localhost:3000",
+    "transport": "session"
+  },
+  "google": {
+    "key": "APP_ID",
+    "secret": "APP_SECRET",
+    "scope": [
+      "openid"
+    ],
+    "callback": "/api/hello"
+  },
+  "twitter": {
+    "key": "CONSUMER_KEY",
+    "secret": "CONSUMER_SECRET",
+    "callback": "/api/hi"
+  }
+}

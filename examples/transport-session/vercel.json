@@ -1,0 +1,9 @@
+{
+  "rewrites": [
+    {"source": "/connect/(.*)", "destination": "/api/grant"}
+  ],
+  "env": {
+    "FIREBASE_PATH": "...",
+    "FIREBASE_AUTH": "..."
+  }
+}
