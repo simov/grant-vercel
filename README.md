@@ -20,6 +20,8 @@ module.exports = async (req, res) => {
 
 > _Also available for [AWS], [Azure], [Google Cloud]_
 
+> _[ES Modules and TypeScript][grant-types]_
+
 ---
 
 ## Configuration
@@ -223,6 +225,7 @@ make deploy
   [grant-config]: https://github.com/simov/grant#configuration
   [grant-dynamic-state]: https://github.com/simov/grant#dynamic-state
   [grant-response-data]: https://github.com/simov/grant#callback-data
+  [grant-types]: https://github.com/simov/grant#misc-es-modules-and-typescript
 
   [example-makefile]: https://github.com/simov/grant-vercel/tree/master/Makefile
   [example-transport-state]: https://github.com/simov/grant-vercel/tree/master/examples/transport-state
