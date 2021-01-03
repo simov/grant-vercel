@@ -16,6 +16,7 @@ module.exports = async (req, res) => {
 
   if (response) {
     await session.remove()
+    res.statusCode = 200
     res.setHeader('content-type', 'text/plain')
     res.end(JSON.stringify(response, null, 2))
   }
